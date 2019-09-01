@@ -6,7 +6,7 @@ import random
 from math import sqrt
 
 
-__author__ = 'Sergei Krasavin'
+__author__ = 'Sergei Krasavinn'
 
 # Задача-1:
 # Напишите скрипт, создающий директории dir_1 - dir_9 в папке,
