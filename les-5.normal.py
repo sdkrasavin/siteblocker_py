@@ -6,7 +6,7 @@ import random
 from math import sqrt
 
 
-__author__ = 'Sergei Krasavin'
+__author__ = 'Sergei Krasavinn'
 
 # Задача-1:
 # Напишите небольшую консольную утилиту,
