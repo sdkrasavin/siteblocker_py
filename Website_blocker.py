@@ -9,9 +9,9 @@ sites_to_block = [
     "youtube.com",
 ]
 
-Linux_host = "/etc/hosts"
-Window_host = r"C:\Windows\System32\drivers\etc\hosts"
-default_hoster = Linux_host # if you are on windows then change it to Window_host
+Linux = "/etc/hosts"
+Windows = r"C:\Windows\System32\drivers\etc\hosts"
+default_hoster = Windows # if you are on Linux please change it to Linux
 redirect = "127.0.0.1"
 
 
@@ -41,4 +41,4 @@ def block_websites(start_hour, end_hour):
 
 
 if __name__ == "__main__":
-    block_websites(9, 21)
+    block_websites(9, 18)
